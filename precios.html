@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/precios.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/CSS/bootstrap.min.css" >
+    <link rel="stylesheet" href="CSS/main.css" >
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" >
+    <!-- endbuild -->
+
+    <title>Guía-Hoteles</title>
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+  		<a class="navbar-brand" href="#">Hoteles</a>
+  		<button class= "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toogle navigation">
+  			 <span class="navbar-toggler-icon"></span>
+  		</button>
+  		 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  		 	<ul class="navbar-nav mr-auto">
+  		 		<li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+  		 		<li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+  		 		<li class="nav-item"><a class="nav-link active" href="#">Precios</a></li>
+  		 		<li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+  		 		<li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+  		 		
+  		 	</ul>
+  		 	
+  		 </div>
+  	</nav>
+    <div class = "jumbotron">
+    	<h1>Hoteles !</h1>	
+    </div>>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
+            </ol>
+        </nav>
+        <ul class="nav nav-tabs" id="myTab" role="tab-list">
+          <li class="nav-item">
+            <a class="nav-link active" id="compara-tab" data-toggle="tab" href="#compara" aria-controls="compara" aria-selected="true">Compara</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" aria-controls="tarjetas" aria-selected="false" role="tab">Tarjetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab" aria-selected="false" aria-controls="comentarios">Comentarios</a>
+          </li>
+        </ul>
+
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="compara" role="tab-panel" aria-labelledby="compara-tab">
+            <div class="table-responsive">
+    	<table class="table">
+       <thead class="thead-light">
+         <th>Calidad</th>
+         <th>Mar del Plata</th>
+         <th>Resistencia</th>
+         <th>Potrerillos</th>
+         <th>San Clemente</th>
+       </thead> 
+       <tbody>
+         <tr>
+           <td>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+           </td>
+           <td>$1500</td>
+           <td>$700</td>
+           <td>$850</td>
+           <td>$900</td>
+         </tr>
+         <tr>
+           <td><span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span></td>
+           <td>$2500</td>
+           <td>$800</td>
+           <td>$950</td>
+           <td>$1000</td>
+         </tr>
+         <tr>
+           <td><span class="oi oi-star"></span>
+               <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span></td>
+           <td>$3500</td>
+           <td>$1000</td>
+           <td>$1200</td>
+           <td>$1100</td>
+         </tr>
+       </tbody>
+      </table>
+    </div>
+    </div>
+    <div class="tab-pane fade" id="tarjetas" role="tab-panel" aria-labelledby="tarjetas-tab">
+      <div class="accordion" id="accordion-tarjetas">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-mastercard" aria-expanded="true" aria-controls="collapse-mastercard">Tarjeta Mastercard</button>
+            </h5>
+            
+          </div>
+          <div id="collapse-mastercard" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-tarjetas">
+            <div class="card-body">
+              Podés reservar hasta en 3 cuotas sin interés
+            </div>
+            
+          </div>
+          
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingtwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-visa" aria-expanded="true" aria-controls="collapse-visa">Tarjeta Visa</button>
+            </h5>
+          </div>
+          <div id="collapse-visa" class="collapse" aria-labelledby="headingtwo" data-parent="#accordion-tarjetas">
+            <div class="card-body">
+              Podés reservar hasta en 6 cuotas sin interés
+            </div>
+          </div>
+          <div class="card">
+          <div class="card-header" id="headingtres">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-maestro" aria-expanded="true" aria-controls="collapse-maesto">Tarjeta Maestro</button>
+            </h5>
+          </div>
+          <div id="collapse-maestro" class="collapse" aria-labelledby="headingtres" data-parent="#accordion-tarjetas">
+            <div class="card-body">
+              Podés reservar hasta en 2 cuotas sin interés. Además tenes una guía grátis del destino que elijas
+            </div>
+          </div>
+      </div>
+
+
+
+    	<div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header" style="background-color: #FF656F; color: #FFFFFF;" >
+            Tarjetas aceptadas
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Mastercard</li>
+            <li class="list-group-item">Visa</li>
+            <li class="list-group-item">Maestro</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <div class="tab-pane fade" id="comentarios" role="tab-panel" aria-labelledby="comentarios-tab">Comentarios</div>
+    </div>
+    </div>
+
+
+    <footer class="footer">
+    	<div class="row">
+    		<div class="col-sm-4 d-flex flex-column">
+    			<a href="https://www.facebook.com">Facebook</a>
+    			<a href="https://www.instagram.com">Instagram</a>
+    			<a href="https://www.twitter.com">Twitter</a>
+    			<a href="https://www.google.com">Google+</a>
+    		</div>
+    		<div class="col-sm-4">
+    			<address>
+    			<p>Sáenz Peña, Chaco, Argentina</p>
+    			<p>+0100101033</p>
+    			<p>contacto@guiahoteles.com</p>
+
+    			</address>
+    		</div>	
+    		<div class="col-sm-4 d-flex flex-column align-items-end">
+    			<a href="https://www.facebook.com">Nosotros</a>
+    			<a href="https://www.instagram.com">Prcios</a>
+    			<a href="https://www.twitter.com">Contacto</a>
+    			<a href="https://www.google.com">Términos y condiciones</a>
+    		</div>
+    	</div>
+    		
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
